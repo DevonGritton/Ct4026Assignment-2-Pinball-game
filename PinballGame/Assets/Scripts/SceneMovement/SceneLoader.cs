@@ -1,0 +1,16 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.SceneManagement;
+
+public class SceneLoader : MonoBehaviour
+{
+   public void Scores()
+    {
+        SceneManager.LoadScene("HighScores");
+    }
+    public void Menu()
+    {
+        SceneManager.LoadScene("MainMenu");
+    }
+}
